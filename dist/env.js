@@ -1,1 +1,0 @@
-window.__GEMINI_API_KEY = "AIzaSyDZeeyI9l7DcGT39UhNXZxErZwgoSMx6wY";
