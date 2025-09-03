@@ -35,7 +35,6 @@ Before setting up the project, ensure you have the following installed:
    ```
 
    This will:
-
    - Copy all files from the `public/` folder to the `dist/` folder.
    - Compile TypeScript files from the `src/` folder into JavaScript in the `dist/` folder.
 
@@ -51,10 +50,13 @@ Before setting up the project, ensure you have the following installed:
 
 ## Configuration
 
-- **Gemini API Key**: The API key for the Gemini service is hardcoded in [`src/api.ts`](src/api.ts). Replace the placeholder key with your actual API key:
-  ```ts
-  const apiKey = "YOUR_API_KEY_HERE";
-  ```
+- **Gemini API Key**: The API key for the Gemini service is managed using a `.env` file. Follow these steps to configure it:
+
+  1. Create a `.env` file in the root of the project:
+
+     ```
+     GEMINI_API_KEY=your_actual_api_key_here
+     ```
 
 ## Linting and Formatting
 
