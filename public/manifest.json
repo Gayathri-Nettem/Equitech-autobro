@@ -9,6 +9,9 @@
   "side_panel": {
     "default_path": "index.html"
   },
+  "background": {
+    "service_worker": "background.js"
+  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -16,10 +19,15 @@
   },
   "permissions": [
     "sidePanel",
-    "storage"
+    "storage",
+    "scripting",
+    "tabs",
+    "activeTab"
   ],
   "host_permissions": [
-    "https://generativelanguage.googleapis.com/*"
+    "https://generativelanguage.googleapis.com/*",
+    "https://*/*",
+    "http://*/*"
   ]
 }
 
