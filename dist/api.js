@@ -32,6 +32,6 @@ export class GeminiClient {
     }
 }
 export function createDefaultGeminiClient() {
-    const apiKey = "AIzaSyCAuEUHEhPbnM9tC397GVQbx2Lkx6R3nP4"; // Replace at runtime or via storage later
+    const apiKey = "YOUR_API_KEY_HERE"; // Replace at runtime or via storage later
     return new GeminiClient(apiKey);
 }
