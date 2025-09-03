@@ -51,7 +51,7 @@ export interface PlannerAgent {
 }
 
 export interface ExecutorAction {
-  type: "navigate" | "click" | "type" | "extract";
+  type: "navigate" | "click" | "type" | "extract" | "wait";
   selector?: string;
   value?: string;
   url?: string;

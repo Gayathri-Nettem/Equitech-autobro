@@ -1,1 +1,1 @@
-window.__GEMINI_API_KEY = "AIzaSyCAuEUHEhPbnM9tC397GVQbx2Lkx6R3nP4";
+window.__GEMINI_API_KEY = "AIzaSyDZeeyI9l7DcGT39UhNXZxErZwgoSMx6wY";
